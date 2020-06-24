@@ -95,6 +95,5 @@ if __name__ == "__main__":
     cluster_table = time_aware_clustering(periods, ts)
     print(cluster_table)
 
-
     vizualize(cluster_table, periods)
     

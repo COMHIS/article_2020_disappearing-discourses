@@ -26,7 +26,8 @@ stopwords_fi = set(stopwords.words('finnish'))
 # stopwords_fi.update(sw)
 #print("Finnish stopwords:", stopwords_fi)
 
-natlib_fin_tarfile = "../data/lemmatized_fi.tar"
+#natlib_fin_tarfile = "../data/lemmatized_fi.tar"
+natlib_fin_tarfile = "/wrk/group/newseye/corpora/natlibfin_text_langs/lemmatized_fi.tar"
 tar = tarfile.open(natlib_fin_tarfile, "r")
 print("Getting lemmatized NLF data from: ", natlib_fin_tarfile)
 
